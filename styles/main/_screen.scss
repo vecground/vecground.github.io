@@ -1,0 +1,31 @@
+section.screen{
+    border-radius: 5px 5px 0px 0px;
+    background-image: linear-gradient(to bottom, #E8E9EB, #ffffff00);
+    flex-flow: column;
+    .screen-container{
+        .current-wallpaper{
+            height: 27rem;
+            width: 48rem;
+            svg{
+                border-radius: 5px;
+                height: 100%;
+                width: 100%;
+                box-shadow: 1px 1px 20px rgba(75, 75, 75, 0.1);
+            }
+        }
+        .history{
+            border-radius: 5px;
+            margin-top: 2rem;
+            height: 9rem;
+            width: 48rem;
+            background-color: #ffffff;
+        }
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    section.screen{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}

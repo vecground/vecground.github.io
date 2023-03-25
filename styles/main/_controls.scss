@@ -1,0 +1,16 @@
+section.controls{
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    .color-controls{
+        .display-6{
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+    }
+    .size-controls{
+        .btn{
+            display: block;
+            width: 100%;
+        }
+    }
+}

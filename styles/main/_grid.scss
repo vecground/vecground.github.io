@@ -1,0 +1,19 @@
+.main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 7% 90% 3%;
+}
+
+@media screen and (max-width: 1280px) {
+    .main{
+        grid-template-columns: 20% 55% 25%;
+        grid-template-rows: 7% 90% 3%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .main{
+        grid-template-columns: 10% 60% 30%;
+        grid-template-rows: 7% 90% 3%;
+    }
+}

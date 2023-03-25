@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="59.999985mm"
+   height="60mm"
+   viewBox="0 0 59.999985 60"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="vecground-icons-attempts.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-215.67388,-661.8289)">
+    <g
+       id="g11251"
+       transform="translate(-243.47154,659.42266)">
+      <rect
+         class="icon-element"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.45714;stroke-dasharray:none"
+         id="rect11241"
+         width="10.704152"
+         height="10.704151"
+         x="459.14542"
+         y="2.4062669" />
+      <rect
+         class="icon-element"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.45714;stroke-dasharray:none"
+         id="rect11243"
+         width="10.704152"
+         height="10.704151"
+         x="469.84955"
+         y="13.110414" />
+      <rect
+         class="icon-element"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.45714;stroke-dasharray:none"
+         id="rect11245"
+         width="10.704152"
+         height="10.704151"
+         x="480.55374"
+         y="2.4062669" />
+      <rect
+         class="icon-element"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.45714;stroke-dasharray:none"
+         id="rect11247"
+         width="10.704152"
+         height="10.704151"
+         x="459.14542"
+         y="23.814575" />
+      <path
+         class="icon-element"
+         style="fill:#000000;stroke-width:0.529166"
+         d="m 519.14542,2.4062679 -60,59.9999991 h 60 z"
+         id="path11249" />
+    </g>
+  </g>
+</svg>

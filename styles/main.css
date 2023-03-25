@@ -1,0 +1,214 @@
+.main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 7% 90% 3%;
+}
+
+@media screen and (max-width: 1280px) {
+  .main {
+    grid-template-columns: 20% 55% 25%;
+    grid-template-rows: 7% 90% 3%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main {
+    grid-template-columns: 10% 60% 30%;
+    grid-template-rows: 7% 90% 3%;
+  }
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Gotham";
+  font-size: 0.75rem;
+  font-weight: 300;
+  background-color: #f5f5f5;
+}
+
+.btn {
+  font-size: 0.75rem;
+}
+
+.btn-primary {
+  background-color: #E8E9EB !important;
+  border: none;
+  color: #161616;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h6 {
+  font-size: 0.9rem;
+}
+
+.logo {
+  flex-basis: 20%;
+}
+.logo a {
+  display: flex;
+}
+.logo a img {
+  height: 2.5rem;
+}
+.logo a p {
+  line-height: 1.1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.screen-size {
+  display: flex;
+  justify-content: center;
+}
+.screen-size select {
+  border: none !important;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: #f5f5f5;
+}
+
+section.presets {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+section.presets .shapes {
+  display: grid;
+  grid: auto auto auto/auto auto auto;
+}
+section.presets .shapes .preset {
+  height: 5.55rem;
+  width: 5.55rem;
+  border-radius: 5px;
+  background-color: #E8E9EB;
+}
+section.presets .shapes .preset:nth-last-child(1) {
+  background-image: url("../assets/plus_icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section.presets .combinations {
+  display: grid;
+  grid: auto auto/auto auto;
+}
+section.presets .combinations .combination {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 5px;
+  background-color: #E8E9EB;
+  display: grid;
+  grid: auto auto/auto auto;
+}
+section.presets .combinations .combination .color {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+section.presets .combinations .combination:nth-last-child(1) {
+  background-image: url("../assets/plus_icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section.presets::-webkit-scrollbar {
+  width: 2px;
+  background-color: transparent;
+}
+
+section.presets::-webkit-scrollbar-thumb {
+  background-color: #E8E9EB;
+}
+
+@media screen and (max-width: 1921px) {
+  section.presets .shapes .preset {
+    width: 5.55rem;
+    height: 5.55rem;
+  }
+  section.presets .combinations .combination {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+@media screen and (max-width: 1367px) {
+  section.presets .shapes .preset {
+    height: 4rem;
+    width: 4rem;
+  }
+  section.presets .combinations .combination {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 5px;
+    background-color: #E8E9EB;
+  }
+}
+@media screen and (max-width: 1281px) {
+  section.presets .shapes {
+    grid: auto auto/auto auto;
+  }
+  section.presets .shapes .preset {
+    height: 6rem;
+    width: 6rem;
+  }
+  section.presets .combinations .combination {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+@media screen and (max-width: 801px) {
+  section.presets {
+    display: none;
+  }
+}
+section.screen {
+  border-radius: 5px 5px 0px 0px;
+  background-image: linear-gradient(to bottom, #E8E9EB, rgba(255, 255, 255, 0));
+  flex-flow: column;
+}
+section.screen .screen-container .current-wallpaper {
+  height: 27rem;
+  width: 48rem;
+}
+section.screen .screen-container .current-wallpaper svg {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  box-shadow: 1px 1px 20px rgba(75, 75, 75, 0.1);
+}
+section.screen .screen-container .history {
+  border-radius: 5px;
+  margin-top: 2rem;
+  height: 9rem;
+  width: 48rem;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+  section.screen {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+section.controls {
+  display: grid;
+  grid-template-rows: 5fr 1fr;
+}
+section.controls .color-controls .display-6 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+section.controls .size-controls .btn {
+  display: block;
+  width: 100%;
+}
+
+.list {
+  background-color: #161616;
+}
+.list a {
+  font-size: 12px;
+  color: #E8E9EB;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,107 @@
+section.presets{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    .shapes{
+        display: grid;
+        grid: auto auto auto / auto auto auto;
+        .preset{
+            height: 5.55rem;
+            width: 5.55rem;
+            border-radius: 5px;
+            background-color: #E8E9EB;
+        }
+        .preset:nth-last-child(1){
+            background-image: url("../assets/plus_icon.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    .combinations{
+        display: grid;
+        grid: auto auto / auto auto;
+        .combination{
+            height: 9rem;
+            width: 9rem;
+            border-radius: 5px;
+            background-color: #E8E9EB;
+            display: grid;
+            grid: auto auto / auto auto;
+            .color{
+                background-color: #f5f5f5;
+                border-radius: 5px;
+            }
+        }
+        .combination:nth-last-child(1){
+            background-image: url("../assets/plus_icon.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}
+section.presets::-webkit-scrollbar{
+    width: 2px;
+    background-color: transparent;
+}
+section.presets::-webkit-scrollbar-thumb{
+    background-color: #E8E9EB;
+}
+
+@media screen and (max-width: 1921px) {
+    section.presets{
+        .shapes{
+            .preset{
+                width: 5.55rem;
+                height: 5.55rem;
+            }
+        }
+        .combinations{
+            .combination{
+                width: 9rem;
+                height: 9rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1367px) {
+    section.presets{
+        .shapes{
+            // grid: auto auto / auto auto;
+            .preset{
+                height: 4rem;
+                width: 4rem;
+            }
+        }
+        .combinations{
+            // grid: auto / auto;
+            .combination{
+                height: 7rem;
+                width: 7rem;
+                border-radius: 5px;
+                background-color: #E8E9EB;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1281px) {
+    section.presets{
+        .shapes{
+            grid: auto auto / auto auto;
+            .preset{
+                height: 6rem;
+                width: 6rem;
+            }
+        }
+        .combinations{
+            .combination{
+                height: 6rem;
+                width: 6rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 801px) {
+    section.presets{
+        display: none ;
+    }
+}
