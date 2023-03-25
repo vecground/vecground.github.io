@@ -14,12 +14,15 @@ body{
 }
 .btn{
     font-size: 0.75rem;
+    font-weight: 500;
 }
 .btn-primary{
     background-color: #E8E9EB !important;
     border: none;
     color: #161616;
-    // font-weight: 500;
+}
+.btn-primary:hover{
+    background-color: #0000ff !important;
 }
 a{
     text-decoration: none;

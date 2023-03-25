@@ -1,10 +1,13 @@
+import generateRGB from "./generateRGB.js";
+
 var background = document.querySelector(".background");
 var triangles = document.querySelectorAll(".triangle");
 var hue = generateHue();
 document.getElementById("generateColor").addEventListener("click", ()=>{
-    let color = generateColor(hue)
+    let color = generateRGB();
+    console.log(color)
     background.style.fill = color;
-    let secondaryColor = generateShade(hue);
+    let secondaryColor = generateRGB();
     triangles.forEach(triangle => {
         triangle.style.fill = secondaryColor;
     });
