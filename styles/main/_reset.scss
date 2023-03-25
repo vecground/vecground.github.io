@@ -1,8 +1,13 @@
+//fonts
+@font-face {
+    font-family: "Gotham";
+    src: url("../../assets/fonts/gotham-light-webfont.woff") format("woff")
+}
 body::-webkit-scrollbar{
     display: none;
 }
 body{
-    font-family: 'Gotham';
+    font-family: 'Gotham', Helvetica, sans-serif, sans-serif;
     font-size: 0.75rem;
     font-weight: 300;
     background-color: #f5f5f5;
