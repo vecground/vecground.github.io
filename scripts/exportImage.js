@@ -1,5 +1,5 @@
 function svg2img(){
-    var svg = document.querySelector('#photo');
+    var svg = document.querySelector('#data');
     var xml = new XMLSerializer().serializeToString(svg);
     var svg64 = btoa(xml); //for utf8: btoa(unescape(encodeURIComponent(xml)))
     var b64start = 'data:image/svg+xml;base64,';
