@@ -222,7 +222,6 @@ section.presets::-webkit-scrollbar-thumb {
 }
 section.screen {
   border-radius: 5px 5px 0px 0px;
-  background-image: linear-gradient(to bottom, #E8E9EB, rgba(255, 255, 255, 0));
   flex-flow: column;
 }
 section.screen .screen-container .current-wallpaper {
