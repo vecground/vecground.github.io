@@ -1,4 +1,4 @@
-<svg width="499" height="1080" viewBox="0 0 499 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="499" height="1080" viewBox="0 0 499 1080" fill="none" xmlns="http://www.w3.org/2000/svg" id="data" data-type="minecraft" data-layers="primary secondary ternary base">
 <g id="minecraft-mobile-wallpaper">
 <rect id="base" width="499" height="1080" class="base" fill="#F5F5F5"/>
 <rect id="Rectangle 3" x="175" y="465" width="50" height="50" class="primary" fill="#161616"/>
